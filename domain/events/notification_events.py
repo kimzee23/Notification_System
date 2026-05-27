@@ -8,6 +8,6 @@ class NotificationDelivered:
     notification_id: UUID
 
 @dataclass
-class Notification:
+class NotificationFailed:
     notification_id: UUID
     error_message: str
