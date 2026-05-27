@@ -1,4 +1,6 @@
+from application.dto.notification_result import NotificationResult
 from domain.entities.notification import Notification
+from domain.events.notification_events import NotificationDelivered, NotificationFailed
 
 
 class SendNotification:
